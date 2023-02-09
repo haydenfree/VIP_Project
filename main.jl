@@ -2,7 +2,7 @@
 
 function main()
     print_numbers() # Call print nums to print numbers 1-10
-    printChars()
+    printWords()
 end
 
 function print_numbers() # define print numbers function
@@ -12,7 +12,7 @@ function print_numbers() # define print numbers function
     end
 end
 
-function printChars()
+function printWords()
     print("Type words:")
     words = readline()
     print(words)
